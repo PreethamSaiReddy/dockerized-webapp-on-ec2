@@ -1,0 +1,10 @@
+#!/bin/bash
+yum update -y
+amazon-linux-extras install docker -y
+service docker start
+usermod -a -G docker ec2-user
+cd /home/ec2-user
+git clone https://github.com/yourusername/dockerized-webapp-on-ec2.git
+cd dockerized-webapp-on-ec2
+docker build -t webapp .
+docker run -d -p 80:3000 webapp
