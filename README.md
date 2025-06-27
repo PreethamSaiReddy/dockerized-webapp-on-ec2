@@ -100,8 +100,7 @@ All screenshots are available in the Drive folder.
 ## Submission Links
 
 GitHub Repo: https://github.com/PreethamSaiReddy/dockerized-webapp-on-ec2  
-Google Drive Folder: [Insert your Drive link here]
-
+Google Drive Folder: https://drive.google.com/drive/u/0/folders/1Jg1wC8adhhRrWYvh0o5hbl_gDSCAUA8Q
 ---
 
 ## Acknowledgment
